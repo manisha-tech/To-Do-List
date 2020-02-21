@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="todolist.css" media="screen" />
+<style type="text/css"></style>
+</head>
+<body>
+<div class="container">
+    <div class ="sidebar">
+    <ul>
+    <li><a href="#"><i class="fas fa-home"></i>My day</a> </li>
+    <li><a href="#"><i class="far fa-star"></i>Important</a> </li>
+    <li><a href="#"><i class="fas fa-home"></i>Planned</a> </li>
+    <li><a href="#"><i class="fas fa-home"></i>Assigned to you</a> </li>
+    <li><a href="#"><i class="fas fa-flag"></i>Flagged Email</a> </li>
+    <li><a href="#"><i class="fas fa-home"></i>Tasks</a> </li>
+    </ul>
+    </div>
+    </div>
+<header>
+        <div class="wrapper">
+        <h1>To Do List</h1>
+        <p id="date"></p>
+        </div>
+ </header>    
+    
+    
+<main>
+        <div id="taskbox" class="row">
+            <ul id="list" class="addtaskitem">
+                <!-- <li>singing<input type="checkbox" class="complete_task"></li>
+                <li><input type="radio" class="inomplete_task"></li>
+             -->
+            </ul>
+        </div>
+    </main>    
+    
+    
+
+    <footer>
+        <div class="row">
+            <form id ="form"class="input_text">
+                <div class="input-group">
+                    <input id ="input"  class="form-control" placeholder="Add a task">
+                    <span> 
+                        <button id="press" type="button" class="btn btn-primary">Submit</button>
+                    </span>
+                </div>
+            </form> 
+        </div>
+    </div>
+</footer>
+<script src="todolist.js"></script>
+</body>
+</html>

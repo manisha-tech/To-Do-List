@@ -1,0 +1,59 @@
+
+body {
+    background-image:url(img/v442-n-163-blurredbackgroundidea.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.sidebar{
+    height: 100%;
+    width:180px;
+    position:fixed;
+    background-color:black;
+    overflow-x:hidden;
+    padding-top:10px;
+    left:0;
+    top: 0;
+}
+
+h1{
+font-size: 20px;
+font-family: lobster;
+text-align: center;
+}
+p {
+    font-size: 15px;
+    font-family: lobster;
+    text-align: center;
+}
+
+.complete_task {
+	float:right;
+	line-height: 15px;
+	height: 17px;
+	background-color: solid white;
+	border: 1px solid white;
+    border-radius: 15px;
+}
+.incomplete_task{
+    float:right;
+}
+ul {
+
+	margin-top: 2px solid;
+    margin-bottom : 2px;
+}
+li {
+    bottom: 0;
+    padding: 0.5rem 0 0.5rem 0; 
+    text-align :center;
+    margin: 2px;
+    margin-top: 2px;;
+ 
+}
+
+footer{
+    text-align:center;
+    padding: 5px;
+    position: center;
+}
+
